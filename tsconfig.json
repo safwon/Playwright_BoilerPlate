@@ -1,0 +1,43 @@
+    {
+        "compilerOptions": {
+            "lib":["es2015","ES6", "dom", "es2018.promise"],
+            "target": "ESNext",
+            "strict": true,
+            "module": "commonjs",
+            "sourceMap": true,
+            "resolveJsonModule": true,
+            "types": [
+                "node"
+                 
+            ],
+            "baseUrl": ".",
+            "paths": {
+                "@pages/*": [
+                    "pages/loginPage/*",
+                    "pages/mainMenuPage/*",
+                    "pages/youtPage/*",
+                    "pages/onDemandPage/*",
+                    "pages/MobileGamesPage/*"
+                ],
+                "@fixtures/*": [
+                    "fixtures/*"
+                ],                
+                "@utils/*": [
+                    "utils/*"
+                ],
+                "@testData/*": [
+                    "testData/*",
+                    "testData/audios/*",
+                    "testData/images/*",
+                    "testData/videos*"
+                    
+                ],
+                "@helper/*": [
+                    "helper/*"
+                    
+                    
+                ]
+            }
+        }
+    }
+
